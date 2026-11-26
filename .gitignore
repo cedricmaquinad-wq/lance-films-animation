@@ -1,0 +1,14 @@
+node_modules/
+out/
+*.mp4
+web/bundle.js
+web/thumb.js
+web/outro.js
+web/preview.js
+__pycache__/
+# regenerable audio (rebuild with tools/trim_voice.py + tools/audio.py)
+**/audio/mix.wav
+**/audio/outro.wav
+**/audio/outro_bus.wav
+**/audio/voice.wav
+**/audio/cta.wav
